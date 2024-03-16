@@ -4,6 +4,7 @@ import Screen from "./Components/Screen";
 import Camera from './Components/Camera'
 import ScreenCam from './Components/ScreenCam'
 import Pratice from "./Components/Pratice"
+import Mobileui from "./Components/Mobileui";
 function App() {
   function isMobileBrowser() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -11,7 +12,7 @@ function App() {
 
   // Example usage
   if (isMobileBrowser()) {
-    return <h1>This Service Only in Browser </h1>
+    return <Mobileui/>
   }
   isMobileBrowser();
   return (
