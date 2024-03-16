@@ -8,12 +8,10 @@ export default function Mobileui() {
       <div className="max-w-sm mx-auto">
         <div className="bg-[#3498db] text-white text-center py-4">
           <p className="mb-2">Sorry, your browser does not support screen capture.</p>
-          <a className="underline" href="#">
-            Learn how to allow
-          </a>
+         
         </div>
         <div className="p-6">
-          <h1 className="text-3xl font-bold mb-4">Free online screen recorder</h1>
+          <h1 className="text-3xl font-bold mb-4">Web Screen Recorder</h1>
           <p className="mb-4">Capture anything you want on your desktop</p>
           <ul className="list-disc pl-5 space-y-2 mb-4">
             <li>Webcam</li>
@@ -25,7 +23,7 @@ export default function Mobileui() {
           <div className="space-y-4">
             <div className="flex items-center">
               <ComputerIcon className="text-[#3498db] mr-2" />
-              <span>Free screen recorder with no download</span>
+              <span>Web Screen Recorder with no download</span>
             </div>
             <div className="flex items-center">
               <LockIcon className="text-[#3498db] mr-2" />
